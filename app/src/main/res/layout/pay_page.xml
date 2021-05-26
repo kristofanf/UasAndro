@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/white">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:padding="6dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNama"
+            android:text="Ini nama"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNoHp"
+            android:text="Ini No"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER AMOUNT"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/etTotal"
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:background="@color/white"
+        android:hint="@string/edittext_hint"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="top"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7ED957"
+        android:text="Confirm"
+        app:backgroundTint="@null"
+        >
+
+
+    </Button>
+
+</LinearLayout>

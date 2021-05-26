@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52660010201",
+    "project_id": "uasandro-547d5",
+    "storage_bucket": "uasandro-547d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52660010201:android:2ec29ce170b700612892c8",
+        "android_client_info": {
+          "package_name": "com.unlucky.uasandro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52660010201-d6ba9i84sub4c3mvbroai6ugfcls71n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeoMCVOQTLb_77-Zkn1IGWuOMXF95kcBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52660010201-d6ba9i84sub4c3mvbroai6ugfcls71n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
